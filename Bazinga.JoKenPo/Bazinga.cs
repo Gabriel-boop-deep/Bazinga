@@ -21,6 +21,7 @@ class minhaClasse {
             string v1, v2,papel,tesoura,pedra,Spock,lagarto ;
             for (int i = 1; i <=qtdTeste ; i++) //insira a variavel correta
             {
+                Console.WriteLine("Informe duas opções entre espaço [Ex: papel tesoura]");
                 string[] valores = Console.ReadLine().Split(" ");
                 v1 = valores[0];
                 v2 = valores[1];
